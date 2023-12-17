@@ -5,4 +5,5 @@
 
 
 class Rectangle:
+    """Defining an instance"""
     pass
