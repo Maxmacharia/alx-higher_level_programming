@@ -5,6 +5,7 @@
 
 
 class Rectangle:
+    """Defining a public class attribute"""
     number_of_instances = 0
     """Defining an instanse"""
     def __init__(self, width=0, height=0):
