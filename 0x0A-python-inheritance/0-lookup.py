@@ -5,4 +5,5 @@
 
 
 def lookup(obj):
+    """This prints all attributes and methods of an object in a list"""
     print(list(dir(obj)))
