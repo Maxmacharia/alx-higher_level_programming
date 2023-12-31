@@ -1,0 +1,28 @@
+This test case is for testing the def append(self):, def print_sorted(self) and def __str__(self)
+functions.
+>>> MyList = __import__('1-my_list').MyList
+
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> my_list.append(4)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> my_list.append(5)
+>>> print(my_list)
+[1, 4, 2, 3, 5]
+>>> my_list.print_sorted()
+[1, 2, 3, 4, 5]
+>>> print(my_list)
+[1, 4, 2, 3, 5]
+
+>>> listing = MyList()
+>>> listing.append(10)
+>>> listing.append(15)
+>>> listing.append(9)
+>>> listing.append(70)
+>>> print(listing)
+[10, 15, 9, 70]
+>>> listing.print_sorted()
+[9, 10, 15, 70]
+>>> print(listing)
+[10, 15, 9, 70]
