@@ -5,6 +5,7 @@
 
 
 def is_same_class(obj, a_class):
+    """Using type() function to check for class similarity"""
     if type(obj) is a_class:
         return True
     else:
